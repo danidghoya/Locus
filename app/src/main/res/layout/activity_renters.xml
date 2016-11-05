@@ -41,6 +41,16 @@
             android:inputType="numberDecimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Comments (i.e. Things you don't want to store)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/descriptNo"
+            android:hint="I don't want ..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
         <Button
             android:id="@+id/brentFinish"
             android:text="FINISHED!!"
