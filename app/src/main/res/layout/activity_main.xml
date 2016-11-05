@@ -22,7 +22,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text= "Looking for a space?"
+        android:text= "Looking for storage space?"
         android:onClick="lookingButtonGotPressed"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
@@ -31,7 +31,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text= "Want to rent out your space?"
+        android:text= "Renting out storage space?"
         android:onClick="rentingButtonGotPressed"
         android:id="@+id/button"
         android:layout_below="@+id/button2"
