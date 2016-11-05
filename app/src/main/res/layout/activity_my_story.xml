@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="MY STORAGE"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="# Box of Clothing:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/BoxCloth"
+            android:hint="# Box"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="# Box of Misc.:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/BoxMisc"
+            android:hint="# Misc"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="# Things outside boxes:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/BoxOut"
+            android:hint="# Other"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="Dates:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <DatePicker
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:id="@+id/startDate" />
+
+        <DatePicker
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:id="@+id/endDate" />
+        <TextView
+            android:text="Contact Info. of Rentor:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="###-###-####"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phoneNumb" />
+
+
+    </LinearLayout>
+</ScrollView>
