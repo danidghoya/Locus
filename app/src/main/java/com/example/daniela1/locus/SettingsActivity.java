@@ -19,5 +19,9 @@ public class SettingsActivity extends AppCompatActivity {
         startActivity(signOutIntent);
     }
 
-
+    public void submitButtonGotPressed (View view)
+    {
+        Intent submitIntent = new Intent(this, SettingsActivity.class);
+        startActivity(submitIntent);
+    }
 }
