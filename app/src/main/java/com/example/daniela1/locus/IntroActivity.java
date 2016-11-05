@@ -21,7 +21,7 @@ public class IntroActivity extends AppCompatActivity {
 
     public void registerButtonGotPressed (View view)
     {
-        Intent loginIntent = new Intent(this, LoginActivity.class);
-        startActivity(loginIntent);
+        Intent registerIntent = new Intent(this, RegistrationActivity.class);
+        startActivity(registerIntent);
     }
 }

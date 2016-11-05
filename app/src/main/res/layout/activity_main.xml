@@ -37,4 +37,13 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="57dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:id="@+id/mapView2" />
+
 </RelativeLayout>

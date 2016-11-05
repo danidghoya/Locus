@@ -27,5 +27,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.0.0'
     compile 'com.google.android.gms:play-services:9.8.0'
     testCompile 'junit:junit:4.12'
+<<<<<<< HEAD
     compile 'com.android.support:support-v4:25.0.0'
+=======
+    compile 'com.google.android.gms:play-services-maps:9.8.0'
+>>>>>>> 40e7d2b8b80a11690b3fb83a5417fe3a42c3271d
 }
