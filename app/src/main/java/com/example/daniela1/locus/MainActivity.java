@@ -23,4 +23,5 @@ public class MainActivity extends AppCompatActivity {
         Intent rentingIntent = new Intent(this, RentersActivity.class);
         startActivity(rentingIntent);
     }
+
 }
