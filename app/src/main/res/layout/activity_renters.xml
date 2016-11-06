@@ -1,26 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_width="385dp"
+    android:layout_height="600dp"
+    android:background="@color/backGroundColor">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rent"
+            android:src="@drawable/rent"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"/>
+
         <TextView
             android:text="Describe your space for the students below"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/description"
             android:hint="Description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
         <TextView
             android:text="click on blank space to upload"
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <ImageView
             android:id="@+id/imageToUpload"
             android:layout_gravity="center_horizontal"
@@ -35,23 +51,29 @@
         <TextView
             android:text="Type in the price"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/price"
             android:hint="Price"
             android:inputType="numberDecimal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
 
         <TextView
             android:text="Comments (i.e. Things you don't want to store)"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/descriptNo"
             android:hint="I don't want ..."
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
         <Button
             android:id="@+id/brentFinish"
             android:text="FINISHED!!"

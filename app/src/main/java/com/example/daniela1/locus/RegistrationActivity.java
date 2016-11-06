@@ -47,6 +47,7 @@ public class RegistrationActivity extends AppCompatActivity {
         Intent backIntent = new Intent(this, IntroActivity.class);
         startActivity(backIntent);
     }
+<<<<<<< HEAD
 
     public void addFirstName(View view) {
         EditText firstNameEditText = (EditText) findViewById(textView);
@@ -144,4 +145,6 @@ public class RegistrationActivity extends AppCompatActivity {
         AppIndex.AppIndexApi.end(client, getIndexApiAction());
         client.disconnect();
     }
+=======
+>>>>>>> b890b551ecd0c47c2b5c7e6733999bf799afd92e
 }

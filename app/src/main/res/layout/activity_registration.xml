@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_registration"
     android:layout_width="wrap_content"
-    android:layout_height="550dp"
+    android:layout_height="600dp"
     android:background="@color/backGroundColor"
     tools:context="com.example.daniela1.locus.RegistrationActivity">
 
@@ -18,22 +18,8 @@
         android:ems="20"
         android:textColor="@color/title"
         android:textColorHint="@color/title"
-        android:layout_marginTop="74dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:hint="Username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:inputType="text"
-        android:imeOptions="actionNext"
-        android:ems="20"
-        android:textColor="@color/title"
-        android:textColorHint="@color/title"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/register"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -52,6 +38,21 @@
         android:layout_centerHorizontal="true" />
 
     <EditText
+        android:hint="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:ems="20"
+        android:textColor="@color/title"
+        android:textColorHint="@color/title"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
         android:hint="Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -68,7 +69,7 @@
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:hint="Phone Number"
+        android:hint="Confirm Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView5"
@@ -112,19 +113,6 @@
         android:layout_alignParentStart="true"
         android:onClick="backButtonGotPressed" />
 
-    <Button
-        android:text="Done Registering"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="22dp"
-        android:layout_marginEnd="22dp"
-        android:id="@+id/button3"
-        android:onClick="doneButtonGotPressed"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/textView6"
-        android:layout_alignEnd="@+id/textView6"
-        android:layout_marginBottom="54dp" />
-
     <ImageView
         android:id="@+id/register"
         android:src="@drawable/register"
@@ -133,6 +121,19 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="Done Registering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:id="@+id/button3"
+        android:onClick="doneButtonGotPressed"
+        android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginTop="38dp" />
 
 
 </RelativeLayout>
