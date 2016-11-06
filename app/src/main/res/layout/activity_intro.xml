@@ -4,6 +4,7 @@
     android:id="@+id/activity_intro"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/backGroundColor"
     tools:context="com.example.daniela1.locus.IntroActivity">
 
     <pl.droidsonroids.gif.GifImageView
@@ -11,7 +12,6 @@
         android:layout_height="match_parent"
         android:src="@drawable/cube"
         android:background="@color/backGroundColor"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
