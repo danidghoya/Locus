@@ -24,6 +24,4 @@ public class RegistrationActivity extends AppCompatActivity {
         Intent backIntent = new Intent(this, IntroActivity.class);
         startActivity(backIntent);
     }
-
-    public void addUserInfo()
 }

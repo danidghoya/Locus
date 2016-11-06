@@ -21,7 +21,6 @@ public class SettingsActivity extends AppCompatActivity {
 
     public void submitButtonGotPressed (View view)
     {
-        Intent submitIntent = new Intent(this, SettingsActivity.class);
-        startActivity(submitIntent);
+        finish();
     }
 }
