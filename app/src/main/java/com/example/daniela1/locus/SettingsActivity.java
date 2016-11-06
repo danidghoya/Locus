@@ -24,4 +24,10 @@ public class SettingsActivity extends AppCompatActivity {
         Intent submitIntent = new Intent(this, SettingsActivity.class);
         startActivity(submitIntent);
     }
+
+    public void visitProfile (View view)
+    {
+        Intent profileIntent = new Intent(this, ProfileActivity.class);
+        startActivity(profileIntent);
+    }
 }
