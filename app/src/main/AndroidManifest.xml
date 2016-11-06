@@ -16,15 +16,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".IntroActivity">
-<<<<<<< HEAD
-=======
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
 
         </activity>
         <activity android:name=".SettingsActivity">
->>>>>>> c6381e6b2f6f291463c6263213931cd94acd1427
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,10 +32,7 @@
         <activity android:name=".lookingActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegistrationActivity" />
-<<<<<<< HEAD
         <activity android:name=".SettingsActivity" />
-=======
->>>>>>> c6381e6b2f6f291463c6263213931cd94acd1427
 
          <activity
          android:name=".MainActivity"
