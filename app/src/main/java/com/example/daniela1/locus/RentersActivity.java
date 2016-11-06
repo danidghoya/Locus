@@ -1,5 +1,7 @@
 package com.example.daniela1.locus;
 
+import android.content.Intent;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -36,6 +38,7 @@ public class RentersActivity extends AppCompatActivity implements View.OnClickLi
 
                 break;
             case R.id.bUploadImage:
+                Intent uploadInent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 
                 break;
             case R.id.brentFinish:
