@@ -1,51 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+
+    android:layout_width="385dp"
+    android:layout_height="515dp"
+    android:background="@color/backGroundColor" >
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:text="MY STORAGE"
+
+        <ImageView
+            android:id="@+id/storage"
+            android:src="@drawable/storage"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
-            android:textSize="30dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"/>
+
         <TextView
             android:text="# Box of Clothing:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/BoxCloth"
             android:hint="# Box"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
         <TextView
             android:text="# Box of Misc.:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/BoxMisc"
             android:hint="# Misc"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
         <TextView
             android:text="# Things outside boxes:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
         <EditText
             android:id="@+id/BoxOut"
             android:hint="# Other"
             android:inputType="number"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
         <TextView
             android:text="Dates:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
 
         <DatePicker
             android:layout_gravity="center_horizontal"
@@ -61,7 +78,8 @@
         <TextView
             android:text="Contact Info. of Rentor:"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/title"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -69,7 +87,9 @@
             android:hint="###-###-####"
             android:inputType="phone"
             android:ems="10"
-            android:id="@+id/phoneNumb" />
+            android:id="@+id/phoneNumb"
+            android:textColor="@color/title"
+            android:textColorHint="@color/title"/>
 
 
     </LinearLayout>

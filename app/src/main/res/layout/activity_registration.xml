@@ -9,17 +9,17 @@
 
 
     <EditText
-        android:hint="Username"
+        android:hint="First Name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:inputType="text"
+        android:id="@+id/textView"
+        android:inputType="textPersonName|textCapWords"
         android:imeOptions="actionNext"
         android:ems="20"
         android:textColor="@color/title"
         android:textColorHint="@color/title"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/textView2"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/register"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -36,6 +36,21 @@
         android:layout_marginTop="20dp"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:hint="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:ems="20"
+        android:textColor="@color/title"
+        android:textColorHint="@color/title"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:hint="Password"
@@ -119,21 +134,6 @@
         android:layout_alignRight="@+id/textView6"
         android:layout_alignEnd="@+id/textView6"
         android:layout_marginTop="38dp" />
-
-    <EditText
-        android:hint="First Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        android:inputType="textPersonName|textCapWords"
-        android:imeOptions="actionNext"
-        android:ems="20"
-        android:textColor="@color/title"
-        android:textColorHint="@color/title"
-        android:layout_marginTop="17dp"
-        android:layout_below="@+id/register"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
