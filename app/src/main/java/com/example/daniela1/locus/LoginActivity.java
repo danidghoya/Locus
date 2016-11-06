@@ -24,4 +24,5 @@ public class LoginActivity extends AppCompatActivity {
         Intent cancelIntent = new Intent(this, IntroActivity.class);
         startActivity(cancelIntent);
     }
+
 }
