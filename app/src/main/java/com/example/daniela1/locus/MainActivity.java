@@ -1,27 +1,28 @@
 package com.example.daniela1.locus;
 
-import android.content.Intent;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+
+import static com.example.daniela1.locus.R.id.map;
+
+public class MainActivity extends FragmentActivity implements OnMapReadyCallback {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MapFragment mapFragment = (MapFragment) getFragmentManager()
+                .findFragmentById(map);
+        mapFragment.getMapAsync(this);
     }
 
-    public void lookingButtonGotPressed(View view)
-    {
-        Intent lookingIntent = new Intent(this, lookingActivity.class);
-        startActivity(lookingIntent);
-    }
-    public void rentingButtonGotPressed (View view)
-    {
-        Intent rentingIntent = new Intent(this, RentersActivity.class);
-        startActivity(rentingIntent);
-    }
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
 
+    }
 }
