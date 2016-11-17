@@ -23,4 +23,10 @@ public class SettingsActivity extends AppCompatActivity {
     {
         finish();
     }
+
+    public void visitProfile (View view)
+    {
+        Intent profileIntent = new Intent(this, ProfileActivity.class);
+        startActivity(profileIntent);
+    }
 }
